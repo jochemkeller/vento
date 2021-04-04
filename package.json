@@ -1,0 +1,21 @@
+{
+    "name": "vento",
+    "displayName": "vento",
+    "description": "A dark VS Code theme based on the new Tailwind 2.0 color research",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vento",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vento-color-theme.json"
+            }
+        ]
+    }
+}
