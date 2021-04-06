@@ -1,14 +1,36 @@
 {
     "name": "vento",
-    "displayName": "vento",
-    "description": "A dark VS Code theme based on the new Tailwind 2.0 color research",
+    "displayName": "Vento",
     "version": "1.0.0",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
+    "description": "A dark VS Code theme based on the new Tailwind 2.0 color research",
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "VSCode",
+        "Themes",
+        "Tailwind",
+        "Accessible",
+        "Dark"
+    ],
+    "homepage": "https://github.com/jochemkeller/vento",
+    "bugs": {
+        "url": "https://github.com/jochemkeller/vento"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jochemkeller/vento"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "jochemkeller",
+        "url": "https://www.jochemkeller.nl"
+    },
+    "publisher": "jochemkeller",
+    "scripts": {
+        "bundle": "vsce package",
+        "publish": "vsce publish"
+    },
     "contributes": {
         "themes": [
             {
@@ -17,5 +39,16 @@
                 "path": "./themes/vento-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "vsce": "^1.81.1"
+    },
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "icon": "images/logo.png",
+    "galleryBanner": {
+        "color": "#212121",
+        "theme": "light"
     }
 }
