@@ -49,6 +49,6 @@
     "icon": "images/logo.png",
     "galleryBanner": {
         "color": "#212121",
-        "theme": "light"
+        "theme": "dark"
     }
 }
