@@ -1,7 +1,7 @@
 {
     "name": "vento",
     "displayName": "Vento",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A dark VS Code theme based on the new Tailwind 2.0 color research",
     "categories": [
         "Themes"
